@@ -1,0 +1,81 @@
+body{
+    background-color:whitesmoke;
+    
+}
+header{
+    color:black
+    height:140px;
+    padding:20px;
+}
+.logo{
+    margin-top: -20px;
+}
+.name {
+    display: flex;
+    justify-content: center;
+    padding-right: 29px;
+    height: 95px;
+    margin-top: -130px;
+}
+.name p{
+    font-size: 45px;
+    font-family: system-ui;
+    text-transform: uppercase;
+}
+.name i{
+    color:#ed1e79;
+    width: 20px;
+    padding-left:300px ;
+}
+.scroll{
+background-color:rgba(255, 217, 0, 0.951);
+padding: 10px;
+font-size: large;
+color: red;
+font-weight: bold;
+margin-top: 40px;
+}
+.navbar {
+    background-color: rgb(22, 7, 36);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 3rem;
+    color: #fff;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+.checkBtn {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+.checkBtn {
+    cursor: pointer;
+    font-size: 30px;
+    float: right;
+    color: #ed1e79;
+    line-height: 400px;
+}
+.sem a{
+    color:#9e1eed;
+    text-decoration: none;
+    font-size: 20px;
+}
+.sem{
+    width:400px;
+    height: 400px;
+    margin-left: 500px;
+    margin-top: 100px;
+    font-size: 40px;
+}
+.sem a:hover{
+    cursor:pointer;
+    color:red;
+    text-decoration: underline;
+}

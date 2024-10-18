@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dcme</title>
+    <link rel="stylesheet" href="./viewpdf.css">
+</head>
+<body>
+    <section>
+        <header>
+            <div class="logo">
+                <img src="http://gptplpt.000webhostapp.com/website/images/index_img/collegelogo.jpeg" height="100px" width="100px">
+            </div>
+            <div class="name">
+                <p>
+                    <a class="govt"><b>Government Polytechnic,<small><sub>Pillaripattu</sub></small></b></a>
+                    <a class="pillari"></a>
+                   <a href="./title.html"><i class="fa fa-bars"></i></a> 
+                </p>
+                
+            </div>
+            <div class="scroll">
+            <marquee>Dcme branch</marquee>
+            </div>
+        </header>
+
+        <table border="2" >
+            <thead>
+                <tr>
+                    <th>S.NO</th>
+                    <th>Subject Code</th>
+                    <th>File Name</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><?php echo $i; ?></td>
+                    <td><?php echo $code; ?></td>
+                    <td><?php echo $filename; ?></td>
+                    <td><a href="<?php echo $pdfPath; ?>" target="_blank">View PDF</a></td>
+                </tr>

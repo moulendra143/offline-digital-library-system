@@ -1,0 +1,88 @@
+header{
+    color:black;
+    height:140px;
+    padding:20px;
+}
+.logo{
+    margin-top: -20px;
+}
+.name {
+    display: flex;
+    justify-content: center;
+    padding-right: 29px;
+    height: 95px;
+    margin-top: -130px;
+}
+.name p{
+    font-size: 45px;
+    font-family: system-ui;
+    text-transform: uppercase;
+}
+.name i{
+    color:#ed1e79;
+    width: 20px;
+    padding-left:300px ;
+}
+.scroll{
+background-color:rgba(255, 217, 0, 0.951);
+padding: 10px;
+font-size: large;
+color: red;
+font-weight: bold;
+margin-top: 40px;
+}
+.navbar {
+    background-color: rgb(22, 7, 36);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 3rem;
+    color: #fff;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+#form{ 
+    position: relative;
+    margin-left: 600px;
+    margin-top: 0px;
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:10px 10px 10px 10px;
+    align-items: center;
+    opacity: 0.7;
+    background-color: black;
+}
+#form > input[type=email]{
+    height: 20%;
+    margin: 8px 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1.5px solid #F0FFF0 ;
+    padding-left: 10px;
+    width: 95%;
+}
+#form > input[type=email]:hover{
+    border: 1px solid orange;
+}
+#form > input[type=mobile]:hover{
+    border: 1px solid orange;
+}
+#form > input[type=mobile]{
+    height: 20%;
+    margin: 8px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1.5px solid #F0FFF0;
+    padding-left: 10px;
+    width: 95%;
+    margin-bottom: 12px;
+    
+}

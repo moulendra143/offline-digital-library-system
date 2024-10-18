@@ -1,0 +1,189 @@
+header{
+    color:black
+    height:140px;
+    padding:20px;
+}
+.logo{
+    margin-top: -20px;
+}
+.name {
+    display: flex;
+    justify-content: center;
+    padding-right: 29px;
+    height: 95px;
+    margin-top: -130px;
+}
+.name p{
+    font-size: 45px;
+    font-family: system-ui;
+    text-transform: uppercase;
+}
+.name i{
+    color:#ed1e79;
+    width: 20px;
+    padding-left:300px ;
+}
+.scroll{
+background-color:rgba(255, 217, 0, 0.951);
+padding: 10px;
+font-size: large;
+color: rgb(231, 52, 52);
+font-weight: bold;
+margin-top: 40px;
+}
+.navbar {
+    background-color: rgb(22, 7, 36);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 3rem;
+    color: #fff;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+.checkBtn {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+.checkBtn {
+    cursor: pointer;
+    font-size: 30px;
+    float: right;
+    color: #ed1e79;
+    line-height: 400px;
+}
+.heading p{
+    padding-left: 250px;
+    margin-top: -500px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+}
+#form{ 
+    position: relative;
+    margin-left: 470px;
+    margin-top: -0px;
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:10px 10px 20px 10px;
+    align-items: center;
+    opacity: 0.7;
+}
+#form > a{
+    margin: 18px 0px;
+    text-decoration: none;
+    font-size: 15px;
+    color: blue;
+}
+
+#form > a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#form > input[type=name]{
+    height: 35%;
+    margin: 8px 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1.5px solid #F0FFF0 ;
+    padding-left: 10px;
+    width: 95%;
+}
+#form > input[type=name]:hover{
+    border: 1px solid orange;
+}
+#form > input[type=password]:hover{
+    border: 1px solid orange;
+}
+#form > input[type=password]{
+    height: 35%;
+    margin: 8px 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1.5px solid #F0FFF0;
+    padding-left: 10px;
+    width: 95%;
+    margin-bottom: 12px;
+    
+}
+#form > input[type=button]{
+    background-color:blue;
+    margin: 8px 0px;
+    border-radius: 5px;
+    width: 95%;
+    padding-left: 10px;
+    font-size: 20px;
+    height: 35%;
+    color:white;
+    font-weight: bold;
+}
+#form > input[type=button]:hover{
+    cursor: pointer;
+    background-color: #166fe5;
+}
+#new > input[type=text]{
+    background-color:rgb(17, 240, 17);
+    margin: 8px 0px;
+    border-radius: 5px;
+    width: 95%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    height: 35%;
+    color:red;
+    font-weight: bold;
+    text-align: center;
+}
+#new > input[type=text]:hover{
+    cursor: pointer;
+    background-color:rgb(34, 166, 34);
+}
+#form button{
+    background-color:green;
+}
+#form button:hover{
+    cursor:pointer;
+    background-color: greenyellow;
+}
+
+@media screen and (max-width:805px) { 
+    .list {
+        width: 30%;
+        height: 100vh;
+        background-color: rgb(22, 7, 36);
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        position:fixed;
+        top: 9.2rem;
+        left: 100%;
+        transition: all 1s;
+        
+    }
+    #check {
+        display: none;
+    }
+
+    .checkBtn {
+        display: block;
+        margin-top: -300px;
+        margin-left: 600px;
+    }
+    #check:checked~ul {
+        left: 0%;
+    }
+    .govt{
+        font-size: 50px;
+    }
+}
